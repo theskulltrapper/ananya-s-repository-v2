@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎀 Birthday Countdown 🎀</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="your-music-file.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Countdown Timer -->
+    <div class="container">
+        <h1>🎂 Countdown to the Special Day! 🎂</h1>
+        <p id="countdown"></p>
+    </div>
+
+    <!-- Daily Message Unlock -->
+    <div class="container">
+        <h2>🎁 Your Special Message for Today 🎁</h2>
+        <p id="dailyMessage">Click below to reveal today's message! ✨</p>
+        <button id="unlockMessage">🔓 Unlock</button>
+    </div>
+
+    <!-- Theme Customization -->
+    <div class="container">
+        <h3>🎨 Customize Theme</h3>
+        <select id="themeSelector">
+            <option value="">🌈 Default (Changes Daily)</option>
+            <option value="coquette">🎀 Bow Coquette</option>
+            <option value="dark">🌙 Dark Mode</option>
+            <option value="pastel">🩷 Pastel Dream</option>
+        </select>
+    </div>
+
+    <!-- Hidden Video -->
+    <video id="surpriseVideo" class="hidden" controls>
+        <source src="your-video-file.mp4" type="video/mp4">
+    </video>
+
+    <script src="script.js"></script>
+</body>
+</html>

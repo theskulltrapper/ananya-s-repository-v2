@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    transition: background 0.5s ease-in-out;
+    padding: 20px;
+}
+
+/* Default Theme */
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffeff7;
+    border-radius: 12px;
+    border: 2px solid #ff80ab;
+    box-shadow: 0 4px 10px rgba(216, 27, 96, 0.3);
+}
+
+/* Buttons */
+button {
+    background: #ff80ab;
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #d81b60;
+}
+
+/* Hidden Video */
+.hidden {
+    display: none;
+}
+
+/* Coquette Theme */
+.coquette {
+    background: #ffe6f2;
+    color: #ff66b2;
+}
+
+/* Dark Theme */
+.dark {
+    background: #222;
+    color: white;
+}
+
+/* Pastel Theme */
+.pastel {
+    background: #e1f7d5;
+    color: #6d6875;
+}
